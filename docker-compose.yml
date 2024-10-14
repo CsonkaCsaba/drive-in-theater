@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    image: app-name:latest
+    image: movies
     build:
       target: web
       context: .
