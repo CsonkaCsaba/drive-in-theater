@@ -37,7 +37,7 @@ useEffect(() => {
                                 <b>Nyelv: </b>{movie.language}<br></br>
                                 <b>Vetítés időpontja: </b>{movie.release.date} óra <br></br>
                                 <b>Szabad helyek: </b>{movie.release.available_seats} db <br></br>
-                                <b>Borítókép:</b> <br></br><img src={movie.cover_image}></img>
+                                <b>Borítókép:</b> <br></br><img src={movie.cover_image} alt="cover image"></img>
                                 <br></br>
                                 </div>
                             ))}
